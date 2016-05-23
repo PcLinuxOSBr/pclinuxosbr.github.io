@@ -28,7 +28,7 @@ var createIndexHtml = function (repo){
     var htmlTemplateInit = "<!DOCTYPE html><html><head><title>Repo RPM PCLinuxOSBr</title></head><body>";
     var htmlLinks = "";
     var htmlTemplateDone = "</body></html>";
-    var list = repo.children;
+    var list = repo.children; 
     //console.log(list)
     for(i in list){
         var href = list[i].path + "";
