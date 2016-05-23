@@ -1,0 +1,73 @@
+ul,li
+{
+  list-style-image: url("/opmaak/images/purpleball.gif");
+  list-style-type: circle
+}
+
+body,p,th,td,h1,h2,h3,h4,h5,table
+{
+   font-family: Arial, helvetica,  sans-serif ;
+}
+h1 { font-size : 28px; }
+h2 { font-size : 24px; }
+h3 { font-size : 22px; }
+h4 { font-size : 20px; }
+h5 { font-size : 18px; }
+
+body 
+{
+   color : black ;
+   background-color: white ;
+}
+
+th { font-size: 13px; }
+
+body,p,td 
+{
+   font-size: 13px;
+   margin-left: 5px;
+   margin-left: 5px;
+}
+
+table.readme
+{
+  background: #ffffcc;
+  border: 0px;
+  margin: 0px;
+  border-spacing: 5px;
+}
+
+.top
+{
+  font-size: 150%;
+  font-weight: bold;
+  color:red;
+  margin-bottom: 10px;
+}
+.title
+{
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.subtitle
+{
+  font-size: 110%;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.email
+{
+  font-style: italic;
+  font-size: 80%;
+  font-weight: normal;
+}
+hr.c20
+{
+   width: 20%;
+   text-align: center;
+}
+.bggrey
+{
+   background: #eeeeee;
+}
